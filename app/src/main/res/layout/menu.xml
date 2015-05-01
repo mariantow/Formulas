@@ -9,7 +9,7 @@
         android:layout_height="150dp"
         android:id="@+id/imageView"
         android:layout_gravity="center_horizontal"
-        android:background="@drawable/fondomenuWE" />
+        android:background="@drawable/fondomenu" />
 
     <LinearLayout
         android:orientation="vertical"
