@@ -1,5 +1,7 @@
 package formulas.co.formulas;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -248,7 +250,6 @@ public class MainActivity extends ActionBarActivity {
         }
     }
 //corregir cuando todas las variables estan llenas
-
 
 
 
