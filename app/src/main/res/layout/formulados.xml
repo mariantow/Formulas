@@ -130,5 +130,39 @@
             android:layout_alignRight="@+id/button7"
             android:layout_alignEnd="@+id/button7" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="J"
+            android:id="@+id/textView16"
+            android:textColor="#ffffffff"
+            android:textSize="30dp"
+            android:layout_alignBottom="@+id/editText_Kmax"
+            android:layout_toRightOf="@+id/editText_Kmax"
+            android:layout_toEndOf="@+id/editText_Kmax" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hz"
+            android:id="@+id/textView17"
+            android:textColor="#ffffffff"
+            android:textSize="30dp"
+            android:layout_above="@+id/editText_tra"
+            android:layout_toRightOf="@+id/editText_Kmax"
+            android:layout_toEndOf="@+id/editText_Kmax"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="eV"
+            android:id="@+id/textView18"
+            android:textColor="#ffffffff"
+            android:textSize="30dp"
+            android:layout_alignBottom="@+id/editText_tra"
+            android:layout_toRightOf="@+id/editText_tra"
+            android:layout_toEndOf="@+id/editText_tra" />
+
     </RelativeLayout>
 </LinearLayout>
