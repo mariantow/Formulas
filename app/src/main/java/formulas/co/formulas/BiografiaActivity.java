@@ -16,7 +16,7 @@ public class BiografiaActivity extends Activity {
         setContentView(R.layout.biografia);
     }
     public void clickText(View v){
-        //fijate donde quiero que salga el link
+
         switch (v.getId()){
             case R.id.textView4:
                 goLink("http://es.wikipedia.org/wiki/Albert_Einstein");
