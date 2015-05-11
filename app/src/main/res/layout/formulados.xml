@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/linealazul"
+    android:baselineAligned="false">
 
     <ImageView
         android:layout_width="300dp"
@@ -17,8 +19,9 @@
         android:id="@+id/textView7"
         android:layout_gravity="center_horizontal"
         android:textSize="25dp"
-        android:textColor="#ff3969ac"
-        android:gravity="center_horizontal" />
+        android:textColor="#ff00ac4d"
+        android:gravity="center_horizontal"
+        android:textStyle="bold|italic" />
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -30,7 +33,7 @@
             android:layout_height="wrap_content"
             android:text="Kmax="
             android:id="@+id/textView12"
-            android:textColor="#ff000000"
+            android:textColor="#ffffffff"
             android:textSize="30dp"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
@@ -44,14 +47,15 @@
             android:id="@+id/editText_Kmax"
             android:layout_alignParentTop="true"
             android:layout_toRightOf="@+id/textView12"
-            android:layout_alignBottom="@+id/textView12" />
+            android:layout_alignBottom="@+id/textView12"
+            android:textColor="#ffffffff" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="v="
             android:id="@+id/textView13"
-            android:textColor="#ff000000"
+            android:textColor="#ffffffff"
             android:textSize="30dp"
             android:layout_below="@+id/textView12"
             android:layout_alignLeft="@+id/textView12"
@@ -66,14 +70,15 @@
             android:id="@+id/editText_v"
             android:layout_alignBottom="@+id/textView13"
             android:layout_toRightOf="@+id/textView12"
-            android:layout_toEndOf="@+id/textView12" />
+            android:layout_toEndOf="@+id/textView12"
+            android:textColor="#ffffffff" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Φ="
             android:id="@+id/textView14"
-            android:textColor="#ff000000"
+            android:textColor="#ffffffff"
             android:textSize="30dp"
             android:gravity="center_horizontal"
             android:layout_below="@+id/textView13"
@@ -87,14 +92,15 @@
             android:id="@+id/editText_tra"
             android:layout_below="@+id/textView13"
             android:layout_toRightOf="@+id/textView13"
-            android:layout_toEndOf="@+id/textView13" />
+            android:layout_toEndOf="@+id/textView13"
+            android:textColor="#ffffffff" />
 
         <TextView
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:text="Kmax: energia cinetica maxima\n h: constante de planck \n v: frecuencia de radiacion \n Φ: funcion de trabajo"
             android:id="@+id/textView15"
-            android:textColor="#ff000000"
+            android:textColor="#ffffffff"
             android:textSize="25dp"
             android:gravity="center_vertical|center_horizontal"
             android:layout_below="@+id/textView14"
